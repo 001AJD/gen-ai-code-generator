@@ -1,0 +1,24 @@
+# dotenv
+.env
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+#DS store file
+.DS_Store
+
+#RDP Dump
+*.rdb
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore
