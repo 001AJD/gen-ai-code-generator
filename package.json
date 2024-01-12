@@ -1,20 +1,25 @@
 {
-  "name": "websockets",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.6.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2",
-    "ws": "^8.16.0"
-  }
+	"name": "gen-ai-code-generator",
+	"version": "1.0.0",
+	"description": "Gen AI Code generator backed by Google Vertex AI for response generation",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"keywords": [
+		"generativeAI",
+		"VertexAI",
+		"WebSockets",
+		"code generation"
+	],
+	"author": "Ajinkya D",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.6.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"node-fetch": "^3.3.2",
+		"ws": "^8.16.0"
+	}
 }
